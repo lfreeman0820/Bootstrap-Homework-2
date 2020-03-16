@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(7, 7, 7);
+  }
+  
+  header,
+  footer {
+    color: lightseagreen;
+    text-align: center;
+    font-style: normal;
+    font-family: fantasy;
+  }
+  header {
+    font-size: 75px;
+  }
+  footer  {
+    font-size: 25px;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  .main {
+    margin-top: auto; /* Add a top margin to avoid content overlay */
+  }
+
+ 

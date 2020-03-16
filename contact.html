@@ -5,78 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="contact.css" rel="stylesheet" type="text/css">
   </head>
-<body>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="./index.html">Home <span class="sr-only"></span></a>
-  
-        </li>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="./portfolio.html">Portfolio <span class="sr-only"></span></a>
-        </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only"></span></a>
+    
+          </li>
+          <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./portfolio.html">Portfolio <span class="sr-only"></span></a>
+          </li>
+          </ul>
+          <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">          
+            <a class="nav-link" href="./contact.html">Contact <span class="sr-only"></span></a>
+          </li> 
+          </ul>      
         </ul>
-        <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">          
-          <a class="nav-link" href="./contact.html">Contact <span class="sr-only"></span></a>
-        </li> 
-        </ul>      
-      </ul>
-    </div>
-  </nav>
+      </div>
+    </nav>
+    
+    <main>
+    
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class= "col-md-8"
+        <div class="container">
+          <h1 class="display-3">Contact Me</h1>
+            <p>Send me a message below:</p>
+          
+            
+      <form>
+        <div class="form-group row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">What's on you mind?</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword">
+            <p><a class="btn btn-primary btn-sm" href="./index.html" role="button">Send Message &raquo;</a></p>
+          </div>
+        </div>
+      </form>
+        
+        </div>
+        </div>
+     
+
+
+    
+    </main>
+    
+    <footer class="container">
+      <p>&copy; LF Design 2020</p>
+    </footer>   
+
   
-  <div class="container">
-    <form>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="inputEmail4">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="form-group col-md-6">
-          <label for="inputPassword4">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputAddress">Address</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-      </div>
-      <div class="form-group">
-        <label for="inputAddress2">Address 2</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-      </div>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="inputCity">City</label>
-          <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="form-group col-md-4">
-          <label for="inputState">State</label>
-          <select id="inputState" class="form-control">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
-        </div>
-        <div class="form-group col-md-2">
-          <label for="inputZip">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck">
-          <label class="form-check-label" for="gridCheck">
-            Check me out
-          </label>
-        </div>
-      </div>
-      <button type="submit" class="btn btn-primary">Sign in</button>
-    </form>
-  </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
